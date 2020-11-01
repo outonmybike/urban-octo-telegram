@@ -3,13 +3,14 @@
     padding: 0;
     margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #ffffff;     
+    color: #ffffff;
 }
 
 body {
     background-color: #d9dcd6;
 }
 
+/*Sets styling for the header and navigation section*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,7 +46,7 @@ p {
     font-size: 16px;
 }
 
-
+/*Hero styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -55,22 +56,26 @@ p {
     background-position: center;
 }
 
+/*Sets picture to left of content block*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/*Sets picture to right of content block*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*Styles the main content block*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Styles items in each of the content blocks*/
 .points {
     margin-bottom: 20px;
     padding: 50px;
@@ -82,12 +87,12 @@ p {
     max-height: 200px;
 }
 
-
 .points h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/*Sets the style for the benefits bar and its content blocks*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -118,6 +123,7 @@ footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    color: default;
 }
 
 footer h2 {
